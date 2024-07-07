@@ -3,32 +3,25 @@ using namespace std;
 
 int main()
 {
-    int num_terms;
-    int a = 0;
-    int b = 1;
-    int next_term;
-
-    cout << "Enter the number of terms in Fibonacci sequence: ";
-    cin >> num_terms;
-
-    cout << "Fibonacci Sequence up to " << num_terms << " terms: ";
-
-    if (num_terms >= 1)
+    string str;
+    string out;
+    cout << "Enter a sentence to print only the first occurance letters (no spaces): ";
+    getline(cin, str);
+    for (int i = 0; i < str.length(); i++)
     {
-        cout << a;
+        bool already = false;
+        for (int j = 0; j < out.length(); j++)
+        {
+            if (str[i] == out[j])
+            {
+                already = true;
+                break;
+            }
+        }
+        if (already == false)
+        {
+            out += str[i];
+        }
     }
-    if (num_terms >= 2)
-    {
-        cout << " " << b;
-    }
-    int i = 3;
-    while (i <= num_terms)
-    {
-        next_term = a + b;
-        cout << " " << next_term;
-        a = b;
-        b = next_term;
-        i++;
-    }
-    cout << endl;
+    cout << out << endl;
 }
