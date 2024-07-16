@@ -6,6 +6,7 @@
         "type_traits": "cpp",
         "random": "cpp",
         "string_view": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "iosfwd": "cpp"
     }
 }

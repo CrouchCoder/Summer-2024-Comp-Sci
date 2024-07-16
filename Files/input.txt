@@ -1,0 +1,4 @@
+Hello Word!
+This is our first file.
+We are learning about reading from file.
+Goodluck!

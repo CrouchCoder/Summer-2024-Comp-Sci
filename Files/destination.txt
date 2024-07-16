@@ -1,0 +1,11 @@
+Files
+File Reading and Display Write a C++ program that reads content from a text file named "input.txt" and displays it on the console.
+
+File Writing Create a C++ program that prompts the user to enter text and saves it to a file named "output.txt".
+
+File Copying Develop a C++ program that copies the contents of one text file ("source.txt") to another file ("destination.txt").
+
+File Line Count Create a C++ program that counts and displays the number of lines in a text file named "lines.txt".
+File Word Count Develop a C++ program that reads a text file named "words.txt" and counts the total number of words in it. Assume every word is separated by one space characters from other words and there are no other punctuations!
+
+File Character Count Write a C++ program that reads a text file named "characters.txt" and counts the total number of characters (including spaces and special characters) in the file.

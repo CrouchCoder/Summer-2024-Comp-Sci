@@ -21,4 +21,4 @@ int main(){
     cout << "GPA is: " << sum/course << endl;
     stucount++;
     }
-}/workspaces/cautious-octo-telegram/Quizzes
+}
